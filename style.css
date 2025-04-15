@@ -262,6 +262,7 @@ header nav{
     }
 }
 @media screen and (max-width: 767px){
+<<<<<<< HEAD
     :root {
         --w-image: 100%;
     }
@@ -651,4 +652,23 @@ header nav{
     .menu-item img {
         height: 180px;
     }
+=======
+    .carousel .list .item .image{
+        width: 100%;
+        left: 0;
+        justify-content: center;
+    }
+    .carousel .list .item .image figcaption{
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    .carousel .list .item .main-content .content{
+        display: none;
+    }
+    .arrows{
+        left: 50%;
+        justify-content: center;
+    }
+>>>>>>> origin/main
 }
